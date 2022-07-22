@@ -1,0 +1,9 @@
+Los valores individuales de una tupla pueden ser recuperados asignando la tupla a las
+variables respectivas. Esto se llama desempaquetar una tupla
+
+Ej: 
+persona = ("Perico","Los palotes")
+
+nombre,apellido = persona
+nombre
+R/: 'Perico'

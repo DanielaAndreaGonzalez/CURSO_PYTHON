@@ -1,0 +1,54 @@
+Funciones.
+1) len():
+Devuelve la lonitud de una cadena de caracteres o el número de elementos de una lista
+Ej: cadena = input(mensaje)
+largo = len(cadena)
+print(largo)
+
+2) append():
+Permite agregar elementos a una lista
+Ej: numero = int(input(mensaje))
+lista.append(numero)
+lista.append(numero)
+
+3.count()
+contar cuantos caracteres hay
+Ej: contar=lista.count(1)
+
+4.Extend():
+Permite agregar elementos dentro de una lista,pero a diferencia del append al momento de agregar una lista,cada 
+elemento de esta lista se agrega como un elemento más dentro de la otra lista.
+Ej: nombres = ["Alvaro","Jacinto","Miguel"]
+    nombres.append("Jose")
+    print(nombre)
+    R/: Alvaro,Jacinto,Miguel,Jose
+    nombres.extend("Jose","Gerardo"]
+    print(nombres)
+    R/: Alvaro,Jacinto,Miguel,Jose,Jose,Gerardo
+
+5.get():
+Busca un elemento a partir de su clave (diccionario) y si no lo encuentra devuelve un valor por defecto
+Ej:
+elementos.get("Oro","No registrado")
+
+6.index():
+Recibe un elemento como argumento y devuelve el índice de su primera aparición en la lista.
+Ej: versiones = [2.1,2.5,3.6,4,5,6,4]
+    print versiones.index(4)
+    R/: 3
+7.insert():
+Inserta un item en la posición que se indique dentro de la lista.
+Ej: viveres.insert(3,"Azúcar")
+
+8.Keys():
+Retorna las claves del diccionario
+Ej: elementos.keys()
+list(elementos.keys())
+
+9.max():retorna el valor máximo.
+max(viveres)
+
+10.reverse(): Permite invertir los items de una lista
+Ej: viveres.reverse
+
+  
